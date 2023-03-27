@@ -33,11 +33,13 @@ The following are the example of request formats
 * `GET` request with the parameter `orderId` will return the Order details and every trip and package in it 
 
 POSTMAN Image attached
+![GET](images/GET.png "Title")
 
 * `POST` request without any body will return error
 * `POST` request with the parameters for order addition will return `success` and order details 
 
 POSTMAN Image attached
+![POST](images/POST.png "Title")
 
 * `PUT` request without any body will return error
 * `PUT` request will require the parameters `tripId` and `newStatus` for updating the trip status and will return order details 
@@ -49,7 +51,10 @@ The only possible Trip status' are "Not started",
 "Delivered",
 
 POSTMAN Image attached
+![PUT](images/PUT.png "Title")
 
+
+## The following is the sample JSON for an order, its packages, their Items and trips
 
 ```json
 {
