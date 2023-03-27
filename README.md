@@ -30,14 +30,14 @@ The following are the API endpoints
 
 ### GET
 * `GET` request without any body will return all the orders present 
-* `GET` request with the parameter `orderId` will return the Order details and every trip and package in it 
+* `GET` request with the parameter `id` will return the Order details and every trip and package in it 
 
 POSTMAN Image attached
 ![GET](images/GET.png "Title")
 
 ### POST
 * `POST` request without any body will return error
-* `POST` request with the parameters for order addition will return `success` and order details 
+* `POST` request with the parameters for order addition will return `success` and order details. An example for POST request body is given below
 
 POSTMAN Image attached
 ![POST](images/POST.png "Title")
