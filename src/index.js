@@ -5,7 +5,7 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 
 // config
-const corsOptions = require("./config/corsOptions");
+const corsOptions = require("./config/corsOptions.js");
 const connectDB = require("./config/dbConn");
 
 // Connect to MongoDB

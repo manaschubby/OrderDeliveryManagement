@@ -2,7 +2,6 @@ const { Order, Trip } = require("../models/Order")
 
 
 const createOrder = async (req, res) => {
-    console.log(req.body)
     const order = new Order(req.body);
     order.save((err, savedOrder) => {
         if (err) {
